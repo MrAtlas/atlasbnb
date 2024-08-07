@@ -5,8 +5,8 @@ import { QuestionCircleOutlined, CommentOutlined } from '@ant-design/icons';
 import themes from '@/app/theme/themeConfig';
 import { useTheme } from '@/app/state/theme/theme-context';
 
-import Sider from '@/app/components/sider';
-import Header from '@/app/components/header';
+//import Sider from '@/app/components/sider';
+import _Header from '../header';
 import Footer from '@/app/components/footer';
 
 const { Content } = Layout;
@@ -23,9 +23,9 @@ export default function MainLayout({ children }) {
         hasSider
         className={`theme-${theme}`}
       >
-        <Sider />
+        {/*<Sider />*/}
         <Layout>
-          <Header />
+          <_Header />
           <Content
             style={{
               margin: '0 16px',

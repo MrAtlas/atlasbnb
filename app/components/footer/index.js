@@ -11,7 +11,7 @@ export default function _Footer() {
         textAlign: 'center',
       }}
     >
-      MetaTrading.ai ©2023 Created by Atlas Technologies
+      Atlas Iter BNB ©2024 Created by Atlas Technologies
     </Footer>
   );
 }
